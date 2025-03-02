@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EventLib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EventLib.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EventLib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/EventLib.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cn.ksmcbrigade.EventLib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cn.ksmcbrigade.EventLib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cn.ksmcbrigade.EventLib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cn.ksmcbrigade.EventLib.test.iml" />
     </modules>
   </component>
 </project>

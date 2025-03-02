@@ -3,20 +3,25 @@
   "minVersion": "0.8",
   "package": "cn.ksmcbrigade.el.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "el.refmap.json",
+  "refmap": "EventLib.refmap.json",
   "mixins": [
     "block.BlockMixin",
     "block.BlockStateBaseBaseMixin",
     "block.BlockStateBaseMixin",
     "entity.EntityMixin",
     "entity.LivingEntityMixin",
-    "network.ConnectionMixin"
+    "network.ConnectionMixin",
+    "network.YggdrasilUserApiServiceMixin"
   ],
   "client": [
     "entity.LocalPlayerMixin",
     "ex.OptionInstanceMixin",
     "misc.ClientBrandMixin",
     "misc.MinecraftMixin",
+    "misc.MultiGameModeMixin",
+    "network.ClientboundPacketListenerMixin",
+    "network.ClientHandshakePacketListenerMixin",
+    "network.ClientPacketListenerMixin",
     "render.gui.ScreenMixin",
     "render.misc.CameraMixin",
     "render.renderer.ClientLevelMixin",

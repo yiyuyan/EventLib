@@ -1,7 +1,6 @@
 package cn.ksmcbrigade.el.events.block;
 
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.phys.shapes.VoxelShape;
 import net.neoforged.bus.api.Event;
 
 public class BlockLightingEvent extends Event {
